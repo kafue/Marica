@@ -1,2 +1,37 @@
+@back BG_000_Black time:0
+
+@wait i3.0
+
+@char BG_OP_01 time:3.0 pos:50,0,50
+
+@wait i3.0
+
+@char BG_OP_02 time:3.0 pos:50,0,51
+
+@wait i3.0
+
+@hideChars time:3.0
+
+@wait 3.0
+
+@back BG_000_White time:2.0 wait:true
+
+@wait i3.0
+
+@bgm BGM_001_OP loop:true
+
+@back BG_001_Wheat time:1.0
+
+誰かが泣いている。
+どこまでも続く、広い麦畑の一画で。
+かさかさと揺れる穂の音に交じり、すすり泣く声が聞こえる。
+どうして泣いているの？
+声をかけようとして、ふと気付いた。
+泣いているのは私だ。
+まだ幼い頃の私。
+だからこれは、私の記憶。
+誰かの肩を揺らしていた。
+大切な人の肩を──。
+
 
 @stop

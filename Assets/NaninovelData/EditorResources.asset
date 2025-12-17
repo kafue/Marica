@@ -208,3 +208,24 @@ MonoBehaviour:
     - name: Clain_M
       pathPrefix: Characters/clain_M
       guid: b49ae93bf5fa26a4983834b0db5a1fa3
+  - Id: Characters/99eeb2c4-a600-4339-bfe2-3829215920a6
+    Resources:
+    - name: BG_OP_01
+      pathPrefix: Characters/BG_OP_01
+      guid: a2d6e47ae2323e94f9143cc3d7b72afa
+  - Id: Characters/6b304f0d-8b96-4fca-8f47-87df39c1c4e7
+    Resources:
+    - name: BG_OP_02
+      pathPrefix: Characters/BG_OP_02
+      guid: 6b4ea325c763bc0439e91b07af47de5f
+  - Id: Audio
+    Resources:
+    - name: BGM_001_OP
+      pathPrefix: Audio
+      guid: 82b8983fe2a5c8247add397e50514975
+    - name: BGM_002_Gentle
+      pathPrefix: Audio
+      guid: 107aa96d04b7d744d96fcebaa1a8dfd8
+    - name: BGM_003_Serious
+      pathPrefix: Audio
+      guid: e1942f92b45d76f4a844bde17c52548e
