@@ -144,6 +144,9 @@ MonoBehaviour:
     - name: ScriptNavigatorUI
       pathPrefix: UI
       guid: 735d6aa767879aa469134858c5b2f0a7
+    - name: SceneAssistantUI
+      pathPrefix: UI
+      guid: 51299eb24d811fb4895f4eae92c52f60
   - Id: Scripts
     Resources:
     - name: Title
@@ -155,6 +158,9 @@ MonoBehaviour:
   - Id: Backgrounds/74f13e35-efd4-4cd5-b880-afb1d1c9d337
     Resources:
     - name: BG_000_Black
+      pathPrefix: Backgrounds/MainBackground
+      guid: 052dc8abb6785ac4daca1b5ce3d2a92d
+    - name: BG_000_Black_02
       pathPrefix: Backgrounds/MainBackground
       guid: 052dc8abb6785ac4daca1b5ce3d2a92d
     - name: BG_000_White
@@ -178,6 +184,9 @@ MonoBehaviour:
     - name: BG_004_Bread
       pathPrefix: Backgrounds/MainBackground
       guid: 494dc6e4cd1ed604aa153fb7ead0d2c6
+    - name: BG_002_Train_L_Roll
+      pathPrefix: Backgrounds/MainBackground
+      guid: b21475aa47e526242b6e44cf1f41861e
   - Id: Characters/1ac97872-3864-4a8b-86e7-9da11afb56ec
     Resources:
     - name: BG_002_Train_L
@@ -229,3 +238,55 @@ MonoBehaviour:
     - name: BGM_003_Serious
       pathPrefix: Audio
       guid: e1942f92b45d76f4a844bde17c52548e
+    - name: SE_001_Explosion
+      pathPrefix: Audio
+      guid: 149969a792cc8334bba02b972fefde32
+    - name: SE_002_Train
+      pathPrefix: Audio
+      guid: bd6c898e6e3132f4e84864c969d9af0d
+    - name: SE_003_Shaking
+      pathPrefix: Audio
+      guid: 089fcc9ed18f5b9458d97ae24b7056c4
+    - name: SE_004_Footsteps
+      pathPrefix: Audio
+      guid: b8bd733bb57c1ab47954489c6263b71e
+    - name: SE_005_Doom
+      pathPrefix: Audio
+      guid: 4f2ebff8e31752d4d836955eacdacb77
+    - name: SE_006_Grass
+      pathPrefix: Audio
+      guid: 9aa00c45fd7dcb341a6441dd62d456a7
+    - name: SE_007_Gun
+      pathPrefix: Audio
+      guid: 357606f75c8f20f48b0404f8cf622c5d
+    - name: SE_008_Shotgun
+      pathPrefix: Audio
+      guid: 577c713db8d87a34e834b6c03493ed8d
+    - name: BGM_000_Start
+      pathPrefix: Audio
+      guid: e209dc089e94a344886701a3be7efd57
+  - Id: Characters/b534fee2-dff2-4b87-bb11-7883601bf859
+    Resources:
+    - name: UI_Band
+      pathPrefix: Characters/UI_Band
+      guid: f5c4e1711bcc6294796b7f8ab90cae71
+  - Id: Characters/5cceb2c2-93b6-43a0-a297-2fc28d7aa513
+    Resources:
+    - name: BG_003_Sky
+      pathPrefix: Characters/BG_003_Sky
+      guid: faff2d497a8035b4ca4834b283202983
+  - Id: Characters/ae4e982b-5e6b-4c95-afd4-91dadcb46eba
+    Resources:
+    - name: BG_003_Sky_02
+      pathPrefix: Characters/BG_003_Sky_02
+      guid: faff2d497a8035b4ca4834b283202983
+  - Id: Characters/2ff423b1-cb42-47f8-bdaa-5d023011dfb5
+    Resources:
+    - name: BG_002_Train
+      pathPrefix: Characters/BG_002_Train
+      guid: 0bf6dee5e45c88846afe109a1bc1c731
+  - Id: Characters/cd49fc35-8da4-4225-9bb8-8659b2576cad
+    Resources:
+    - name: BG_000_Black
+      pathPrefix: Characters/BG_000_Black
+      guid: 052dc8abb6785ac4daca1b5ce3d2a92d

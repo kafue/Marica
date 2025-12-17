@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "com.elringus.naninovel": "https://github.com/naninovel/upm.git#1.20",
+    "com.idaocracy.naninovelsceneassistant": "https://github.com/idaocracy/NaninovelSceneAssistant.git",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.inputsystem": "1.14.2",
     "com.unity.ugui": "2.0.0",

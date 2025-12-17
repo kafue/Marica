@@ -17,6 +17,13 @@
       },
       "hash": "431a9478dcfbc9b25464e09080c994c6b50ddf78"
     },
+    "com.idaocracy.naninovelsceneassistant": {
+      "version": "https://github.com/idaocracy/NaninovelSceneAssistant.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "a0f849cf7c06696ff33b1e4aa2db8eeff0141b82"
+    },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
       "depth": 0,

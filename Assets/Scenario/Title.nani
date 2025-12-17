@@ -1,2 +1,3 @@
 @back BG_000_White
+@bGM BGM_000_Start loop:true
 @stop

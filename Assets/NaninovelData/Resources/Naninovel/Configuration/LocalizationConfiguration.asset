@@ -486,8 +486,8 @@ MonoBehaviour:
     name: Zulu
   - tag: zu-ZA
     name: Zulu (South Africa)
-  SourceLocale: en
-  DefaultLocale: 
+  SourceLocale: ja
+  DefaultLocale: ja
   AutoDetectLocale: 1
   RecordSeparator: '|'
   AnnotationPrefix: '> '

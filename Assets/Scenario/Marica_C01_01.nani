@@ -1,3 +1,4 @@
+@stopBgm
 @back BG_000_Black time:0
 
 @wait i3.0
@@ -6,19 +7,21 @@
 
 @wait i3.0
 
-@char BG_OP_02 time:3.0 pos:50,0,51
+@char BG_OP_02 time:2.0 pos:50,0,51
 
 @wait i3.0
 
 @hideChars time:3.0
 
+@wait i3.0
+
+@back BG_000_Black_02 
+
 @wait 3.0
 
 @back BG_000_White time:2.0 wait:true
 
-@wait i3.0
-
-@bgm BGM_001_OP loop:true
+@bgm BGM_002_Gentle loop:true
 
 @back BG_001_Wheat time:1.0
 
@@ -33,5 +36,286 @@
 誰かの肩を揺らしていた。
 大切な人の肩を──。
 
+@stopBgm fade:2.0
+
+@hideUI time:2.0
+
+@back BG_000_White time:1.0 wait:true
+
+@back BG_000_Black time:1.0 
+
+@wait i3.0
+
+@sfx SE_002_Train loop:false
+
+@showUI time:2.0
+
+ガタンゴトン。ガタンゴトン。
+
+@stopSfx SE_002_Train fade:2.0
+
+マリカ: （夢、か……）
+
+@bgm BGM_001_OP loop:true
+
+@char UI_Band scale:1.0 time:0 pos:50,0,49
+
+@char BG_002_Train_L scale:1.0 time:2.0 pos:10,-50,50
+@char BG_002_Train_L scale:1.0 time:20.0 pos:-10,-50,50
+
+初めて乗る列車は、噂ほど心躍るものではなかった。
+座席は固いし、揺れはお世辞にも、心地よいとは言えない。
+冷たい吐息が、窓を白く曇らせる。
+かじかんだ指を軽くこすって、窓に滑らせた。
+
+@char BG_003_Sky scale:1.0 time:2.0 pos:50,-20,48
+@char BG_003_Sky scale:1.0 time:40.0 pos:50,-130,48
+
+車窓には、災害で焼けた大地の傷跡。
+見上げれば、夜空をうねる、赤紫の渦がある。
+
+@char BG_003_Sky_02 scale:1.0 time:2.0 pos:50,-130,47
+
+地域の人々は、『厄災の渦』と呼んでいた。
+世界に災いを降らすという意味では、確かにその通り。
+けれど、人々は知らない。あの渦の本当の意味を。
+
+@hidePrinter
+@hideChars
+@trans time:1.0
+    @char UI_Band scale:1.0 pos:50,0,49
+    @char BG_002_Train scale:1.0 pos:50,0,50
+@wait i1.0
+
+@char clain_M scale:1.0 pos:30,-80,20
+
+軍服の男: 「ここ、空いてるか？」
+
+@hide clain_M time:1.0
+@char clain scale:1.0 pos:30,0,20 time:1.0
+
+知らない声。軍服の男が通路に立っていた。
+マリカ: 「さあ」
+軍服の男: 「さあって何だよ。イエスかノーの二択だろ」
+マリカ: 「空いている席は、他にも沢山あるわよ」
+軍服の男: 「ここに座りたい」
+マリカ: 「お喋りする気はないわ」
+軍服の男: 「俺もない」
+
+@hide clain time:1.0
+承諾もなしに、男はドカッと前の座席に腰掛けた。
+乱暴な男。視線を逸らして、再び窓を眺める。
+
+@hide UI_Band time:1.0
+@char BG_003_Sky scale:1.0 time:2.0 pos:50,-20,49
+
+雪が降っていた。
+焼けた大地に、しんしんと降り注ぐ白い雪が。
+まるで傷跡を洗い流すように。
+
+マリカ: （綺麗ね……）
+
+世界は悲しみで溢れている。
+でも、きっとそれは誰のせいでもない。
+いつだって、世界はありのままで、美しかった。
+でなければ、この長旅に出ることもなかったと思う。
+
+@hidePrinter
+@hideChars
+@trans time:1.0
+    @char UI_Band scale:1.0 pos:50,0,49
+    @char BG_002_Train_L scale:1.0 pos:40,0,50
+
+@char BG_002_Train_L scale:1.0 time:80.0 pos:100,0,50 
+
+女の子: 「わあ、おっきな帽子」
+ふいに、幼い少女が、こちらを見上げていた。
+女の子: 「おねえさん、どこ行くの？」
+マリカ: 「さあ」
+女の子: 「分からないの？」
+マリカ: 「……えいえんの塔」
+女の子: 「なにそれ？」
+マリカ: 「誰もいない、遠い場所よ」
+女の子: 「誰もいないの？」
+マリカ: 「そうよ」
+女の子: 「一人も？」
+マリカ: 「ええ」
+女の子: 「寂しくないの？」
+マリカ: 「あなた、ご両親は？」
+女の子: 「いないよ」
+マリカ: 「保護者は？」
+女の子: 「ほごしゃってなに？」
+マリカ: 「一緒に暮らしている大人のことよ」
+女の子: 「ママのこと？」
+マリカ: 「なによ、いるじゃないの」
+女の子: 「ここにいないよ」
+マリカ: 「家出？」
+女の子: 「私ねえ、おじじのとこ行くの」
+女の子: 「おじじ、元気ないんだって」
+少女は自慢げに、紙袋を見せた。
+マリカ: 「あなたがここにいるって、お母さんは知ってるの？」
+女の子: 「知らない。ヒミツ！」
+女の子: 「……バラす？」
+マリカ: 「バラさないから、大人しく座ってなさい」
+
+@hideChars
+@back BG_002_Train time:1.0
+@shake Camera count:5 hor! !ver
+@sfx SE_003_Shaking loop:false
+その瞬間、ぐらりと列車が揺れた。
+女の子: 「わっ」
+転倒しかけた少女を、思わず支える。
+代わりに、紙袋の中身が床に転がった。
+
+@back BG_004_Bread time:1.0
+
+女の子: 「あ……」
+袋の中身は、パンだった。
+床の泥にまみれてしまい、食べられる状態ではない。
+マリカ: 「お見舞いの品かしら」
+女の子: 「……うん」
+マリカ: 「美味しそうなパンね」
+女の子: 「ううん。ぐしゃぐしゃ」
+マリカ: 「私のと交換しましょう」
+女の子: 「え……でも、汚い」
+マリカ: 「汚くていいの」
+女の子: 「落ちたの食べるの？」
+マリカ: 「そうよ」
+女の子: 「いいの？」
+マリカ: 「ええ。土の味が好きなの」
+女の子: 「変なの」
+
+@back BG_000_Black time:1.0
+少女は笑うと、私の膝に飛び乗った。
+女の子: 「おねえさん、お名前は？」
+マリカ: 「さあ」
+女の子: 「忘れたの？」
+マリカ: 「……マリカよ」
+
+@stopBgm fade:2.0
+@back BG_002_Train time:1.0
+@shake Camera count:5 hor! !ver
+@sfx SE_001_Explosion loop:false
+
+突然の、爆破音。
+激しい振動があり、列車が急ブレーキを踏む。
+女の子: 「きゃっ」
+マリカ: 「……何？」
+
+@sfx SE_004_Footsteps loop:false
+たちまち怒声が上がり、荒々しい靴音とともに男たちが乱入した。
+
+@char UI_Band scale:1.0 pos:50,0,49
+@back BG_002_Train_L_Roll time:1.0
+
+@bgm BGM_003_Serious loop:true
+顔を隠した男１: 「大人しく手を挙げろ！」
+顔を隠した男２: 「この列車は我々が占拠する！」
+
+@char clain_M scale:1.0 pos:30,-80,20
+軍服の男: 「強盗か。この土地も荒れたもんだ」
+@hide clain_M
+悲鳴。逃げ惑う人々。
+そこに、容赦なく銃声が重なる。
+
+@sfx SE_008_Shotgun loop:false
+
+悲鳴は、やがて沈黙に変わっていった。
+@hidePrinter
+@hideChars
+@trans time:1.0
+    @char UI_Band scale:1.0 pos:50,0,49
+    @char BG_002_Train scale:1.0 pos:50,0,50
+    @char clain_M scale:1.0 pos:30,-80,20
+
+軍服の男: 「ちっ、ふざけやがって」
+@hide clain_M time:1.0
+@char clain scale:1.0 pos:30,0,20 time:1.0
+
+軍服の男が立ち上がる。
+マリカ: 「どうする気？」
+軍服の男: 「止めるに決まってるだろ」
+マリカ: 「あの飛び道具、銃っていうの。リリスの作った武器よ。一撃で人の命を奪うわ」
+軍服の男: 「んなことは知っている」
+マリカ: 「死にたいの？」
+軍服の男: 「……そうかもしれねえ」
+
+@sfx SE_004_Footsteps loop:false
+@hide clain time:1.0
+男は車両の奥に走っていった。
+
+@hidePrinter
+@trans time:1.0
+    @hideChars
+    @back BG_000_Black
+
+震える少女を抱えながら、騒ぎが静まるのを待つ。
+しばらくして、ぞっとする静寂が訪れた。
+マリカ: 「……少し様子を見てくるわ」
+女の子: 「やだ……行かないで」
+マリカ: 「すぐ戻るから。顔を出してはダメよ」
+
+@char BG_002_Train_LB scale:1.0 pos:110,-50,50
+震える乗客を横切り、車両を進む。
+扉に重いものがつっかえていた。
+足元の隙間に、赤い染みが広がっている。
+ガラス越しに扉を覗くと、倒れた人間がいた。
+強盗: 「いたぞ、追え！！」
+
+@hide BG_002_Train_LB
+@char BG_002_Train_L_Dash scale:1.0 pos:60,-50,50 time:1.0
+
+反対側から、叫び声──。
+
+@sfx SE_008_Shotgun loop:false
+@wait 0.5
+@sfx SE_006_Grass loop:false
+銃声があり、窓ガラスが飛び散った。
+
+@hideChars
+@back BG_000_Black time:1.0
+咄嗟に、座席の影に身を隠す。
+
+@sfx SE_004_Footsteps loop:false
+蹴り破られる扉。複数の走る靴音。
+
+@hidePrinter
+@trans time:1.0
+    @char UI_Band scale:1.0 pos:50,0,49
+    @char BG_002_Train_LB scale:1.0 pos:70,-50,50
+強盗: 「動くな、撃つぞ！」
+
+@sfx SE_007_Gun loop:false
+また銃声。すぐそばで、断末魔を上げながら倒れる乗客。
+
+その背を踏んで、銃を抱えた男が走る。
+そのときだった。
+
+@hidePrinter
+@trans time:0.5
+    @hideChars
+    @back BG_002_Train_L_Roll
+女の子: 「おねえさん！」
+少女が、通路に飛び出した。
+
+マリカ: 「来ちゃダメ！」
+こちらに向かって、駆けてくる。
+
+強盗もそれに気づいて、すぐさま振り返った。
+その指は、銃のトリガーにかけられたまま。
+軍服の男が追ってきたが、強盗との距離は遠い。
+
+@stopBgm BGM_003_Serious fade:2.0
+@back BG_000_Black time:1.0
+私は少女のすぐそばにいる。
+一瞬の判断。私は──。
+
+@choice "少女を守った" goto:.next
+@choice "自分を守った" goto:.next
+@choice "選べない" goto:.next
+@stop
+
+# next
+ごめんなさい。私はどうしても──生きないと。
 
 @stop
