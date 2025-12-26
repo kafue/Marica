@@ -1,9 +1,11 @@
 @stopBgm
+@hideChars
+
 @back BG_000_Black time:0
 
 @wait i3.0
 
-@char BG_OP_01 time:3.0 pos:50,0,50
+@char BG_OP_01 time:2.0 pos:50,0,50
 
 @wait i3.0
 
