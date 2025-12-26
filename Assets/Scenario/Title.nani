@@ -1,3 +1,10 @@
 @back BG_000_White
+
+@wait 1.0
+
+@back BG_013_Tower time:1.0
+
+
+
 @bGM BGM_000_Start loop:true
 @stop
