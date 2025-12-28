@@ -155,6 +155,9 @@ MonoBehaviour:
     - name: Marica_C01_01
       pathPrefix: Scripts
       guid: 8b74461271c5f624aaa873f212739751
+    - name: Marica_C00_01
+      pathPrefix: Scripts
+      guid: 1da66f2b618a24c41b49cca592a943f5
   - Id: Backgrounds/74f13e35-efd4-4cd5-b880-afb1d1c9d337
     Resources:
     - name: BG_000_Black
