@@ -2,9 +2,9 @@
 
 @wait 1.0
 
-@back BG_013_Tower time:1.0
+@back BG_014_Tower time:1.0
 
 @char UI_logo scale:0.8  time:0 pos:50,40,49
 
-;@bGM BGM_000_Start loop:true
+@bGM BGM_000_Start loop:true
 @stop

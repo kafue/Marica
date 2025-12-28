@@ -25,7 +25,7 @@ MonoBehaviour:
   StableIdentification: 0
   InitializationScript: 
   TitleScript: Title
-  StartGameScript: Marica_C01_01
+  StartGameScript: Marica_C00_01
   AutoAddScripts: 1
   AutoResolvePath: 1
   HotReloadScripts: 1
