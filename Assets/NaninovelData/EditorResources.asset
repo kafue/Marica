@@ -385,6 +385,16 @@ MonoBehaviour:
       guid: 94f6d3829f4d79c40b6e4a9a45036480
   - Id: Characters/5c42aab9-5988-4b1e-934a-9c648f3de131
     Resources:
-    - name: 
+    - name: BG_014_Tower
       pathPrefix: Characters/BG_014_Tower
-      guid: 
+      guid: fb1a04bf3fdb55b42b8834c768f58965
+  - Id: Characters/ce74021c-7571-4064-ad09-c5d06b27c1dd
+    Resources:
+    - name: CHAR_Cat
+      pathPrefix: Characters/CHAR_Cat
+      guid: 8e26024957b206f4e9bcfe6516b4586c
+  - Id: Characters/33f260f2-924c-4d73-a4b8-e5e799290350
+    Resources:
+    - name: CHAR_Cat_L
+      pathPrefix: Characters/CHAR_Cat_L
+      guid: b8f6cabc8d22324479c1d4d0681df3a0
