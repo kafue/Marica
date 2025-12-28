@@ -9,10 +9,10 @@
 
 @bgm BGM_001_OP loop:true
 
-@char BG_013_SnowLoad_M pos:50,-7,50 time:2.0
-@char UI_Band scale:1.0 time:0 pos:50,0,49 time:2.0
+@char BG_013_SnowLoad_M pos:50,-18,50 time:2.0
+;@char UI_Band scale:1.0 time:0 pos:50,0,49 time:2.0
 
-@char BG_013_SnowLoad_M pos:50,-30,50 time:10
+@char BG_013_SnowLoad_M pos:50,-7,50 time:10
 
 初めての土地は、白かった。
 木々も、大地も、建物も。雪に染まっている。
